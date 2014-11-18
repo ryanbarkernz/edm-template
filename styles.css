@@ -1,0 +1,11 @@
+/* if WP8 image is not working responsive then set max-width to td */
+
+*[class="wp8-img-fix"] td {
+	max-width: 317px !important;
+	margin: 0 auto;
+	display: block;
+}
+
+*[class="wp8-img-fix"] img {
+	width: 100% !important;
+}
